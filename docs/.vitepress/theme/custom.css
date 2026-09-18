@@ -1,0 +1,182 @@
+/* =========================================================
+   SAW Wiki - Tema Cybersecurity
+   Paleta: fondo oscuro + acentos neón (verde/cian)
+   ========================================================= */
+
+:root {
+  --vp-c-brand-1: #00b268;
+  --vp-c-brand-2: #00d47c;
+  --vp-c-brand-3: #00ff9d;
+  --vp-c-brand-soft: rgba(0, 255, 157, 0.14);
+
+  --vp-c-default-1: #2e3a52;
+  --vp-c-gutter: rgba(100, 255, 190, 0.08);
+
+  --vp-font-family-base: 'Inter', 'Segoe UI', -apple-system, sans-serif;
+  --vp-font-family-mono: 'JetBrains Mono', 'Cascadia Code', 'Fira Code',
+    'Consolas', monospace;
+}
+
+/* Fondo oscuro por defecto (estética terminal/security) */
+.dark {
+  --vp-c-bg: #0a0e14;
+  --vp-c-bg-alt: #0d121a;
+  --vp-c-bg-elv: #111826;
+  --vp-c-bg-soft: #0f1520;
+  --vp-c-text-1: #dce8e2;
+  --vp-c-text-2: #9fb0a6;
+  --vp-c-text-3: #6b7c72;
+}
+
+/* ---------- Tipografía del código ---------- */
+code,
+pre,
+.vp-doc :not(pre) > code {
+  font-family: var(--vp-font-family-mono);
+}
+
+/* ---------- Encabezados ---------- */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3 {
+  letter-spacing: -0.02em;
+}
+
+.vp-doc h2 {
+  border-top: none;
+  padding-top: 0;
+}
+
+.vp-doc h2::before {
+  content: '>';
+  color: var(--vp-c-brand-3);
+  margin-right: 0.35em;
+  font-family: var(--vp-font-family-mono);
+  font-weight: 700;
+}
+
+/* ---------- Enlaces ---------- */
+.vp-doc a {
+  text-decoration: none;
+  border-bottom: 1px dashed var(--vp-c-brand-3);
+}
+
+.vp-doc a:hover {
+  border-bottom-style: solid;
+}
+
+/* ---------- Bloques de código: marco terminal ---------- */
+.vp-doc div[class*='language-'] {
+  border: 1px solid rgba(0, 255, 157, 0.25);
+  border-radius: 8px;
+  box-shadow: 0 0 18px rgba(0, 255, 157, 0.06);
+}
+
+.vp-doc div[class*='language-']::before {
+  color: var(--vp-c-brand-3);
+  font-family: var(--vp-font-family-mono);
+}
+
+/* ---------- Ask config: callouts ---------- */
+.vp-doc .custom-block {
+  border-radius: 6px;
+}
+
+.vp-doc .custom-block.warning {
+  border-color: #b5891a;
+  background: rgba(255, 193, 7, 0.07);
+}
+
+.vp-doc .custom-block.danger {
+  border-color: #ff5370;
+  background: rgba(255, 83, 112, 0.07);
+}
+
+.vp-doc .custom-block.tip {
+  border-color: var(--vp-c-brand-3);
+  background: rgba(0, 255, 157, 0.06);
+}
+
+.vp-doc .custom-block.info {
+  border-color: #22d3ee;
+  background: rgba(34, 211, 238, 0.06);
+}
+
+/* ---------- Tablas ---------- */
+.vp-doc table {
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.vp-doc th {
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-3);
+}
+
+.vp-doc tr:nth-child(2n) {
+  background: var(--vp-c-bg-soft);
+}
+
+/* ---------- Navegación ---------- */
+.VPNavBarTitle .title {
+  font-family: var(--vp-font-family-mono);
+  letter-spacing: 0.05em;
+}
+
+.VPNavBarTitle .logo {
+  filter: drop-shadow(0 0 6px rgba(0, 255, 157, 0.6));
+}
+
+/* ---------- Homepage ---------- */
+.VPHomeHero .name {
+  font-family: var(--vp-font-family-mono);
+  letter-spacing: -0.02em;
+}
+
+.VPHomeHero .text {
+  color: #ffffff;
+  text-shadow: 0 0 24px rgba(0, 255, 157, 0.35);
+}
+
+.VPHomeHero .tagline {
+  color: #9fb0a6;
+}
+
+.VPHome .VPHomeHero .name,
+.VPHome .VPHomeHero .text {
+  max-width: 100%;
+}
+
+/* Footer de vagones */
+.VPHome .VPHero .actions {
+  margin-top: 24px;
+}
+
+/* ---------- Sidebar ---------- */
+.VPSidebarItem.is-active::before {
+  background: var(--vp-c-brand-3);
+}
+
+.VPSidebarItem .VPSidebarItem {
+  color: #b8c6be;
+}
+
+/* ---------- Scrollbar ---------- */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--vp-c-bg-alt);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1c2733;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--vp-c-brand-2);
+}
