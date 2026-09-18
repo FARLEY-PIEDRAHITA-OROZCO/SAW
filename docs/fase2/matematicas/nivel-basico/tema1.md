@@ -91,16 +91,16 @@ Señalar una temperatura bajo cero en la escala Celsius (“En estos momentos, l
 Este conjunto numérico nos permite realizar las operaciones básicas como **la suma, la resta, la multiplicación y la división**, los hindúes fueron los precursores en el manejo de los números enteros, siguiendo unas reglas específicas; para la suma y la resta se utiliza la recta numérica y para la multiplicación y la división se hace uso de la **ley de signos**:
 
 
-+ por + = +
+\+ por + = +
 
 
-- por - = +
+\- por - = +
 
 
-+ por - = -
+\+ por - = -
 
 
-- por + = -
+\- por + = -
 
 
 En materia de multiplicación hay que subrayar además que existen diversas propiedades como son la asociativa, la distributiva o la conmutativa.
@@ -210,7 +210,7 @@ Ahora bien, miremos el conjunto de los números racionales que se denotan con la
 El conjunto de los números racionales se creó debido a las limitaciones de cálculo que se presentaban en el conjunto de los números naturales y números enteros.
 
 
-Pero **¿Cómo surgen los números racionales?** hagamos un ejemplo, toma un pan y divídelo para tres personas, esto numéricamente sería: ** 1 pan / 3 personas**. Veamos el ejemplo.
+Pero **¿Cómo surgen los números racionales?** hagamos un ejemplo, toma un pan y divídelo para tres personas, esto numéricamente sería: **1 pan / 3 personas**. Veamos el ejemplo.
 
 
 Como el resultado no es un número entero, Para solucionar esta dificultad, se creó este conjunto, el cual está formado por todos los números de la forma a/b. Esta fracción en la cual el numerador es a, es un número entero y el denominador b, es un número entero distinto de cero.

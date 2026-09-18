@@ -104,7 +104,7 @@ Es lo mismo que.
 **(- 5 ) + ( - 4 ) = - 9**. Es lo mismo que.
 
 
-- 5 - 4 = - 9
+\- 5 - 4 = - 9
 
 
 B
@@ -152,31 +152,31 @@ Para estas operaciones es importante enunciar las reglas de los signos como se m
 #### Multiplicar
 
 
-+ por + = +
+\+ por + = +
 
 
-- por - = +
+\- por - = +
 
 
-+ por - = -
+\+ por - = -
 
 
-- por + = -
+\- por + = -
 
 
 #### Dividir
 
 
-+ entre + = +
+\+ entre + = +
 
 
-- entre - = +
+\- entre - = +
 
 
-+ entre - = -
+\+ entre - = -
 
 
-- entre + = -
+\- entre + = -
 
 
 A
