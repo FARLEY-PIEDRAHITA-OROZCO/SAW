@@ -33,10 +33,19 @@ Gestión de vulnerabilidades, pentesting, OWASP Top 10, herramientas especializa
 | [2.4 Herramientas](/fase1/tema2/04-herramientas) | SAST, DAST, IAST |
 | [2.5 Análisis de resultados](/fase1/tema2/05-analisis-resultados) | Checklist, riesgo, reportes de pentesting |
 
+### Habilidades transversales de la fase
+
+La fase incluye además las OVAs de comunicación y TIC que acompañan el proceso formativo:
+
+| Componente | Páginas |
+|------------|---------|
+| [Comunicación oral y escrita](/fase1/comunicacion/argumentacion/) | Argumentación, Comunicándonos, Escribiendo y Relacionando |
+| [TIC](/fase1/tic/) | Software, Internet, Ofimática, Evaluación y Mejora continua |
+
 ## Ruta de estudio sugerida
 
 ```text
-1.1 Conceptos  →  1.2 Infraestructura  →  1.3 Normatividad  →  1.4 Metodologías
+Introducción  →  1.1 Conceptos  →  1.2 Infraestructura  →  1.3 Normatividad  →  1.4 Metodologías
         │                                        │
         ▼                                        ▼
 2.1 Gestión de vulnerabilidades      OWASP, SDLC, pentesting
@@ -49,6 +58,8 @@ Gestión de vulnerabilidades, pentesting, OWASP Top 10, herramientas especializa
         ▼
 2.5 Análisis de resultados
 ```
+
+> **Suspendido en paralelo:** los componentes de [Comunicación](/fase1/comunicacion/argumentacion/) y [TIC](/fase1/tic/) se pueden estudiar de forma separada, sin interrumpir la ruta técnica.
 
 ## Material de consulta
 
