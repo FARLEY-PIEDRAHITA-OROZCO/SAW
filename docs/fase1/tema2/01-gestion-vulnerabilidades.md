@@ -1,6 +1,6 @@
 ---
-title: 2.1 Metodologías para la gestión de vulnerabilidades
-description: Metodología OWASP para la identificación de vulnerabilidades en aplicaciones web
+title: "2.1 Metodologías para la gestión de vulnerabilidades"
+description: "Metodología OWASP para la identificación de vulnerabilidades en aplicaciones web"
 tags: [owasp, pruebas, vulnerabilidades]
 ---
 

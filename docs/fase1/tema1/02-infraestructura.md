@@ -1,6 +1,6 @@
 ---
-title: 1.2 Infraestructura de aplicaciones web
-description: Componentes que integran la infraestructura de una aplicación web y su arquitectura técnica
+title: "1.2 Infraestructura de aplicaciones web"
+description: "Componentes que integran la infraestructura de una aplicación web y su arquitectura técnica"
 tags: [infraestructura, arquitectura, frontend, backend, servidor]
 ---
 

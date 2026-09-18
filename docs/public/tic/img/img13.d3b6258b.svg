@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="146" height="146" viewBox="0 0 146 146">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_400938" data-name="Rectángulo 400938" width="137" height="137" transform="translate(-0.028 -0.028)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_401742" data-name="Rectángulo 401742" width="146" height="146" transform="translate(-0.028 -0.028)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectángulo_402229" data-name="Rectángulo 402229" width="56.828" height="51.392" fill="#005c64"/>
+    </clipPath>
+  </defs>
+  <g id="img13" transform="translate(-1042.288 -4348.563)">
+    <g id="Grupo_1102300" data-name="Grupo 1102300" transform="translate(1042.316 4348.59)">
+      <g id="Grupo_1099379" data-name="Grupo 1099379" transform="translate(0 0)">
+        <rect id="Rectángulo_401103" data-name="Rectángulo 401103" width="146" height="146" transform="translate(-0.028 -0.028)" fill="none"/>
+        <path id="Trazado_873425" data-name="Trazado 873425" d="M59.772,0c33.011,0,59.772,28.667,59.772,64.029s-26.761,64.029-59.772,64.029S0,99.391,0,64.029,26.761,0,59.772,0Z" transform="translate(19.066 15.303)" fill="#87e0d2"/>
+        <g id="Enmascarar_grupo_1100032" data-name="Enmascarar grupo 1100032" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+          <g id="Grupo_1102285" data-name="Grupo 1102285" transform="translate(0.409)" clip-path="url(#clip-path-3)" style="isolation: isolate">
+            <g id="Grupo_1102284" data-name="Grupo 1102284" transform="translate(0 0)">
+              <g id="Grupo_1102283" data-name="Grupo 1102283" clip-path="url(#clip-path-3)">
+                <g id="Grupo_1102282" data-name="Grupo 1102282" transform="translate(0 0)" style="mix-blend-mode: screen;isolation: isolate">
+                  <g id="Grupo_1102281" data-name="Grupo 1102281" transform="translate(0 0)">
+                    <g id="Grupo_1102280" data-name="Grupo 1102280" clip-path="url(#clip-path-3)">
+                      <path id="Trazado_875470" data-name="Trazado 875470" d="M0,28.419,28.42,0l28.408,28.42-4.045,4.045L28.42,8.1,4.047,32.464Z" transform="translate(0 0)" fill="#005c64"/>
+                      <path id="Trazado_875471" data-name="Trazado 875471" d="M0,41.146,28.42,12.728,56.828,41.146l-4.045,4.047L28.42,20.828,4.047,45.193Z" transform="translate(0 6.2)" fill="#005c64"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <circle id="Elipse_11503" data-name="Elipse 11503" cx="62.5" cy="62.5" r="62.5" transform="translate(9.972 10.972)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Grupo_1102301" data-name="Grupo 1102301" transform="translate(1075.154 4378.995)">
+      <g id="Grupo_1099389" data-name="Grupo 1099389" transform="translate(0 0)">
+        <rect id="Rectángulo_401104" data-name="Rectángulo 401104" width="81" height="83" transform="translate(0.135 -0.432)" fill="none"/>
+      </g>
+      <g id="Grupo_1122271" data-name="Grupo 1122271" transform="translate(0.135 0.568)">
+        <path id="Trazado_911453" data-name="Trazado 911453" d="M17.951,165.343l-2.819,10.526-10.305.218a40.571,40.571,0,0,1-.3-37.818h0l9.175,1.682,4.019,9.119a24.17,24.17,0,0,0,.227,16.273Z" transform="translate(0 -116.394)" fill="#fbbb00"/>
+        <path id="Trazado_911454" data-name="Trazado 911454" d="M300.53,208.176a40.485,40.485,0,0,1-14.437,39.149l0,0-11.556-.59-1.635-10.21A24.138,24.138,0,0,0,283.284,224.2H261.628V208.176h38.9Z" transform="translate(-220.238 -175.242)" fill="#518ef8"/>
+        <path id="Trazado_911455" data-name="Trazado 911455" d="M91.535,332.541l0,0a40.513,40.513,0,0,1-61.028-12.39l13.125-10.744a24.087,24.087,0,0,0,34.71,12.332Z" transform="translate(-25.682 -260.46)" fill="#28b446"/>
+        <path id="Trazado_911456" data-name="Trazado 911456" d="M90.447,9.324,77.326,20.065A24.084,24.084,0,0,0,41.82,32.676l-13.194-10.8h0A40.508,40.508,0,0,1,90.447,9.324Z" transform="translate(-24.096)" fill="#f14336"/>
+      </g>
+    </g>
+  </g>
+</svg>

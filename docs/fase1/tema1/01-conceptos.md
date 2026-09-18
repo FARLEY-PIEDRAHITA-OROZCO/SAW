@@ -1,6 +1,6 @@
 ---
-title: 1.1 Conceptos
-description: Conceptos fundamentales de la gestión de vulnerabilidades en aplicaciones web
+title: "1.1 Conceptos"
+description: "Conceptos fundamentales de la gestión de vulnerabilidades en aplicaciones web"
 tags: [conceptos, vulnerabilidad, amenaza, riesgo]
 ---
 

@@ -55,11 +55,92 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: 'Comunicación',
+        activeMatch: '/comunicacion/',
+        items: [
+          { text: 'Argumentación', link: '/comunicacion/argumentacion/' },
+          { text: 'Comunicándonos', link: '/comunicacion/comunicandonos/' },
+          { text: 'Escribiendo', link: '/comunicacion/escribiendo/' },
+          { text: 'Relacionando', link: '/comunicacion/relacionando/' },
+        ],
+      },
+      { text: 'TIC', link: '/tic/' },
       { text: 'Glosario', link: '/glosario' },
       { text: 'Referencias', link: '/referencias' },
     ],
 
     sidebar: {
+      '/comunicacion/argumentacion/': [
+        {
+          text: 'Comunicación oral y escrita · Argumentación',
+          collapsed: false,
+          items: [
+            { text: 'Inicio', link: '/comunicacion/argumentacion/' },
+            { text: 'Introducción', link: '/comunicacion/argumentacion/introduccion' },
+            { text: 'Tema 1 · La argumentación', link: '/comunicacion/argumentacion/tema1' },
+            { text: 'Tema 2 · Bases de la argumentación', link: '/comunicacion/argumentacion/tema2' },
+            { text: 'Tema 3 · Tipos de argumentación', link: '/comunicacion/argumentacion/tema3' },
+            { text: 'Síntesis', link: '/comunicacion/argumentacion/sintesis' },
+          ],
+        },
+      ],
+      '/comunicacion/comunicandonos/': [
+        {
+          text: 'Comunicación oral y escrita · Comunicándonos',
+          collapsed: false,
+          items: [
+            { text: 'Inicio', link: '/comunicacion/comunicandonos/' },
+            { text: 'Introducción', link: '/comunicacion/comunicandonos/introduccion' },
+            { text: 'Tema 1 · La comunicación', link: '/comunicacion/comunicandonos/tema1' },
+            { text: 'Tema 2 · La comunicación asertiva', link: '/comunicacion/comunicandonos/tema2' },
+            { text: 'Síntesis', link: '/comunicacion/comunicandonos/sintesis' },
+          ],
+        },
+      ],
+      '/comunicacion/escribiendo/': [
+        {
+          text: 'Comunicación oral y escrita · Escribiendo',
+          collapsed: false,
+          items: [
+            { text: 'Inicio', link: '/comunicacion/escribiendo/' },
+            { text: 'Introducción', link: '/comunicacion/escribiendo/introduccion' },
+            { text: 'Tema 1 · Producción de textos', link: '/comunicacion/escribiendo/tema1' },
+            { text: 'Tema 2 · Comunicación digital', link: '/comunicacion/escribiendo/tema2' },
+            { text: 'Síntesis', link: '/comunicacion/escribiendo/sintesis' },
+          ],
+        },
+      ],
+      '/comunicacion/relacionando/': [
+        {
+          text: 'Comunicación oral y escrita · Relacionando',
+          collapsed: false,
+          items: [
+            { text: 'Inicio', link: '/comunicacion/relacionando/' },
+            { text: 'Introducción', link: '/comunicacion/relacionando/introduccion' },
+            { text: 'Tema 1 · Semiótica y semiología', link: '/comunicacion/relacionando/tema1' },
+            { text: 'Tema 2 · La interpretación', link: '/comunicacion/relacionando/tema2' },
+            { text: 'Síntesis', link: '/comunicacion/relacionando/sintesis' },
+          ],
+        },
+      ],
+      '/tic/': [
+        {
+          text: 'Tecnologías de la Información y la Comunicación',
+          collapsed: false,
+          items: [
+            { text: 'Inicio', link: '/tic/' },
+            { text: 'Introducción', link: '/tic/introduccion' },
+            { text: 'Tema 1', link: '/tic/tema1' },
+            { text: 'Tema 2', link: '/tic/tema2' },
+            { text: 'Tema 3', link: '/tic/tema3' },
+            { text: 'Tema 4', link: '/tic/tema4' },
+            { text: 'Tema 5', link: '/tic/tema5' },
+            { text: 'Síntesis', link: '/tic/sintesis' },
+          ],
+        },
+      ],
+
       '/fase1/': [
         {
           text: 'Fase 1 · Análisis',

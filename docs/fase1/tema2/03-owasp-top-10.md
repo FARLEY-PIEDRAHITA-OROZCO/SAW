@@ -1,6 +1,6 @@
 ---
-title: 2.3 OWASP Top 10
-description: Las 10 vulnerabilidades más críticas en aplicaciones web según OWASP 2021
+title: "2.3 OWASP Top 10"
+description: "Las 10 vulnerabilidades más críticas en aplicaciones web según OWASP 2021"
 tags: [owasp-top-10, vulnerabilidades, inyeccion, xss, idor, ssrf]
 ---
 

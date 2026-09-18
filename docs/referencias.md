@@ -1,6 +1,6 @@
 ---
-title: Referencias
-description: Referencias bibliográficas del componente formativo de seguridad de aplicaciones web
+title: "Referencias"
+description: "Referencias bibliográficas del componente formativo de seguridad de aplicaciones web"
 tags: [referencias, bibliografia]
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: 1.3 Normatividad y estándares
-description: Normas y estándares para la gestión de la seguridad de aplicaciones web (ISO 27001, 27002, 25010)
+title: "1.3 Normatividad y estándares"
+description: "Normas y estándares para la gestión de la seguridad de aplicaciones web (ISO 27001, 27002, 25010)"
 tags: [normatividad, iso, 27001, 27002, 25010, sgsi, pdca]
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: 2.4 Herramientas especializadas
-description: Herramientas SAST, DAST e IAST para la auditoría de aplicaciones web
+title: "2.4 Herramientas especializadas"
+description: "Herramientas SAST, DAST e IAST para la auditoría de aplicaciones web"
 tags: [herramientas, sast, dast, iast, zap, burp, owasp]
 ---
 

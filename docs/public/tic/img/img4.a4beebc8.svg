@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="img4" transform="translate(-269 -958)">
+    <circle id="Elipse_5614" data-name="Elipse 5614" cx="35" cy="35" r="35" transform="translate(269 958)" fill="#fff"/>
+    <g id="layer1" transform="translate(281.742 970.71)">
+      <g id="g27" transform="translate(1.567 1.598)">
+        <path id="rect1" d="M-279.82,187.367a3.206,3.206,0,0,0-3.213,3.213V215.4a3.206,3.206,0,0,0,3.213,3.213H-255a3.206,3.206,0,0,0,3.213-3.213V190.58A3.206,3.206,0,0,0-255,187.367Zm2.286,3.917h20.2a1.571,1.571,0,0,1,1.575,1.575V213.08a1.571,1.571,0,0,1-1.575,1.575h-20.2a1.571,1.571,0,0,1-1.575-1.575V192.859A1.571,1.571,0,0,1-277.535,191.284Z" transform="translate(288.081 -182.315)" fill="#0720ac"/>
+        <path id="rect3" d="M-262.153,208.267h18.13V226.4h-18.13Z" transform="translate(273.731 -196.678)" fill="#0720ac"/>
+        <path id="rect4" d="M-179.867,265.772h4.065v2.783h-4.065Z" transform="translate(217.183 -236.196)" fill="#0720ac"/>
+        <path id="rect5" d="M-179.867,249.351h4.065v2.783h-4.065Z" transform="translate(217.183 -224.912)" fill="#0720ac"/>
+        <path id="rect6" d="M-179.867,232.9h4.065v2.783h-4.065Z" transform="translate(217.183 -213.609)" fill="#0720ac"/>
+        <path id="rect7" d="M-179.867,216.436h4.065v2.783h-4.065Z" transform="translate(217.183 -202.292)" fill="#0720ac"/>
+        <path id="rect8" d="M-179.867,199.969h4.065v2.783h-4.065Z" transform="translate(217.183 -190.976)" fill="#0720ac"/>
+        <path id="rect13" d="M-299.171,265.772h4.065v2.783h-4.065Z" transform="translate(299.171 -236.196)" fill="#0720ac"/>
+        <path id="rect14" d="M-299.171,249.351h4.065v2.783h-4.065Z" transform="translate(299.171 -224.912)" fill="#0720ac"/>
+        <path id="rect15" d="M-299.171,232.9h4.065v2.783h-4.065Z" transform="translate(299.171 -213.609)" fill="#0720ac"/>
+        <path id="rect16" d="M-299.171,216.436h4.065v2.783h-4.065Z" transform="translate(299.171 -202.292)" fill="#0720ac"/>
+        <path id="rect17" d="M-299.171,199.969h4.065v2.783h-4.065Z" transform="translate(299.171 -190.976)" fill="#0720ac"/>
+        <g id="Grupo_1121689" data-name="Grupo 1121689" transform="translate(32.359) rotate(90)">
+          <path id="rect18" d="M0,0H4.065V2.783H0Z" transform="translate(37.316 20.582)" fill="#0720ac"/>
+          <path id="rect19" d="M0,0H4.065V2.783H0Z" transform="translate(37.316 15.446)" fill="#0720ac"/>
+          <path id="rect20" d="M0,0H4.065V2.783H0Z" transform="translate(37.316 10.302)" fill="#0720ac"/>
+          <path id="rect21" d="M0,0H4.065V2.783H0Z" transform="translate(37.316 5.145)" fill="#0720ac"/>
+          <path id="rect22" d="M0,0H4.065V2.783H0Z" transform="translate(37.316)" fill="#0720ac"/>
+          <path id="rect23" d="M0,0H4.065V2.783H0Z" transform="translate(0 20.582)" fill="#0720ac"/>
+          <path id="rect24" d="M0,0H4.065V2.783H0Z" transform="translate(0 15.446)" fill="#0720ac"/>
+          <path id="rect25" d="M0,0H4.065V2.783H0Z" transform="translate(0 10.302)" fill="#0720ac"/>
+          <path id="rect26" d="M0,0H4.065V2.783H0Z" transform="translate(0 5.145)" fill="#0720ac"/>
+          <path id="rect27" d="M0,0H4.065V2.783H0Z" fill="#0720ac"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

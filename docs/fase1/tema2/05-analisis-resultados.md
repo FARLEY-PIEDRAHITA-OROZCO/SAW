@@ -1,6 +1,6 @@
 ---
-title: 2.5 Análisis de resultados
-description: Instrumentos para documentar, analizar y evaluar los hallazgos de pruebas de seguridad
+title: "2.5 Análisis de resultados"
+description: "Instrumentos para documentar, analizar y evaluar los hallazgos de pruebas de seguridad"
 tags: [resultados, riesgo, checklist, reporte, pentesting]
 ---
 

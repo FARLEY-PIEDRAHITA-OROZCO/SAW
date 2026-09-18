@@ -1,6 +1,6 @@
 ---
-title: 1.4 Metodologías
-description: Metodologías para la gestión de la seguridad en aplicaciones web (OWASP, SDLC)
+title: "1.4 Metodologías"
+description: "Metodologías para la gestión de la seguridad en aplicaciones web (OWASP, SDLC)"
 tags: [metodologias, owasp, sdlc, ciclo-devida]
 ---
 

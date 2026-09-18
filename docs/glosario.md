@@ -1,6 +1,6 @@
 ---
-title: Glosario
-description: Términos y conceptos clave de la seguridad de aplicaciones web
+title: "Glosario"
+description: "Términos y conceptos clave de la seguridad de aplicaciones web"
 tags: [glosario, conceptos]
 ---
 

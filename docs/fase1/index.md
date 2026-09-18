@@ -1,6 +1,6 @@
 ---
-title: Fase 1 · Análisis
-description: Resumen de la Fase 1 - Análisis del técnico en Seguridad de Aplicaciones Web
+title: "Fase 1 · Análisis"
+description: "Resumen de la Fase 1 - Análisis del técnico en Seguridad de Aplicaciones Web"
 tags: [fase1, analisis]
 ---
 

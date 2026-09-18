@@ -1,6 +1,6 @@
 ---
-title: Introducción
-description: Bienvenida al componente formativo de metodologías, normas y estándares de seguridad orientada a aplicaciones web
+title: "Introducción"
+description: "Bienvenida al componente formativo de metodologías, normas y estándares de seguridad orientada a aplicaciones web"
 tags: [introduccion, saw, sena]
 aside: true
 ---
