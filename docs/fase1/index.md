@@ -6,62 +6,74 @@ tags: [fase1, analisis]
 
 # Fase 1 · Análisis
 
-La primera fase del programa se centra en el **análisis**: comprender los fundamentos de la seguridad en aplicaciones web, la normatividad que la rige y las metodologías para identificar vulnerabilidades.
+La primera fase del programa se centra en el **análisis**: comprender los fundamentos de la seguridad en aplicaciones web, la normatividad que la rige y las metodologías para identificar vulnerabilidades. El componente se organiza en **6 OVAs independientes**, cada una con su propia estructura modular: introducción, desarrollo y síntesis.
 
-## Temas de esta fase
+## Componentes de la fase
 
-### [Tema 1 · Fundamentos de seguridad →](/fase1/tema1/01-conceptos)
+<div class="grid-modulos">
 
-Conceptos, infraestructura de aplicaciones web, normatividad y estándares (ISO 27001, 27002, 25010) y metodologías (OWASP, SDLC).
+<a class="modulo-card" href="/fase1/metodologias-normas-estandares/">
+  <span class="modulo-card__icon">🛡️</span>
+  <span class="modulo-card__titulo">Metodologías, normas y estándares</span>
+  <span class="modulo-card__desc">OVA principal: fundamentos, infraestructura web, normatividad (ISO), metodologías OWASP y gestión de vulnerabilidades.</span>
+  <span class="modulo-card__link">Explorar →</span>
+</a>
 
-| Página | Contenido |
-|--------|-----------|
-| [1.1 Conceptos](/fase1/tema1/01-conceptos) | Vulnerabilidad, amenaza, riesgo, bug, patch, testing, métrica y KPI |
-| [1.2 Infraestructura](/fase1/tema1/02-infraestructura) | Componentes y arquitectura de aplicaciones web |
-| [1.3 Normatividad](/fase1/tema1/03-normatividad) | ISO 27001, 27002, 25010, Ciclo PDCA |
-| [1.4 Metodologías](/fase1/tema1/04-metodologias) | OWASP, SDLC |
+<a class="modulo-card" href="/fase1/tic/">
+  <span class="modulo-card__icon">💻</span>
+  <span class="modulo-card__titulo">Tecnologías de la Información y la Comunicación</span>
+  <span class="modulo-card__desc">Software, internet, ofimática, evaluación y mejora continua como soporte del proceso formativo.</span>
+  <span class="modulo-card__link">Explorar →</span>
+</a>
 
-### [Tema 2 · Vulnerabilidades →](/fase1/tema2/01-gestion-vulnerabilidades)
+<a class="modulo-card" href="/fase1/argumentacion/">
+  <span class="modulo-card__icon">🗣️</span>
+  <span class="modulo-card__titulo">Comunicación · Argumentación</span>
+  <span class="modulo-card__desc">La argumentación como herramienta del pensamiento: mensajes, pensamiento-lenguaje y tipos de argumentación.</span>
+  <span class="modulo-card__link">Explorar →</span>
+</a>
 
-Gestión de vulnerabilidades, pentesting, OWASP Top 10, herramientas especializadas y análisis de resultados.
+<a class="modulo-card" href="/fase1/comunicandonos/">
+  <span class="modulo-card__icon">💬</span>
+  <span class="modulo-card__titulo">Comunicación · Comunicándonos</span>
+  <span class="modulo-card__desc">La comunicación efectiva: procesos, verbal y no verbal.</span>
+  <span class="modulo-card__link">Explorar →</span>
+</a>
 
-| Página | Contenido |
-|--------|-----------|
-| [2.1 Gestión de vulnerabilidades](/fase1/tema2/01-gestion-vulnerabilidades) | Pruebas pasivas y activas, 12 categorías OWASP |
-| [2.2 Pentesting](/fase1/tema2/02-pentesting) | Tipos de pentesting, ciclo de vida, cajas negra/blanca/gris |
-| [2.3 OWASP Top 10](/fase1/tema2/03-owasp-top-10) | Las 10 vulnerabilidades más críticas (2021) |
-| [2.4 Herramientas](/fase1/tema2/04-herramientas) | SAST, DAST, IAST |
-| [2.5 Análisis de resultados](/fase1/tema2/05-analisis-resultados) | Checklist, riesgo, reportes de pentesting |
+<a class="modulo-card" href="/fase1/escribiendo/">
+  <span class="modulo-card__icon">✍️</span>
+  <span class="modulo-card__titulo">Comunicación · Escribiendo</span>
+  <span class="modulo-card__desc">Producción de textos y comunicación digital: tipos de texto y su aplicación.</span>
+  <span class="modulo-card__link">Explorar →</span>
+</a>
 
-### Habilidades transversales de la fase
+<a class="modulo-card" href="/fase1/relacionando/">
+  <span class="modulo-card__icon">🔗</span>
+  <span class="modulo-card__titulo">Comunicación · Relacionando</span>
+  <span class="modulo-card__desc">El arte del relacionamiento en el proceso lectoescritor: semiótica, conectores e interpretación.</span>
+  <span class="modulo-card__link">Explorar →</span>
+</a>
 
-La fase incluye además las OVAs de comunicación y TIC que acompañan el proceso formativo:
-
-| Componente | Páginas |
-|------------|---------|
-| [Comunicación oral y escrita](/fase1/comunicacion/argumentacion/) | Argumentación, Comunicándonos, Escribiendo y Relacionando |
-| [TIC](/fase1/tic/) | Software, Internet, Ofimática, Evaluación y Mejora continua |
+</div>
 
 ## Ruta de estudio sugerida
 
+Cada OVA es **independiente**: puedes estudiarlas en paralelo sin perder el hilo. La ruta técnica inicia con la introducción del **OVA de Metodologías, normas y estándares**:
+
 ```text
-Introducción  →  1.1 Conceptos  →  1.2 Infraestructura  →  1.3 Normatividad  →  1.4 Metodologías
-        │                                        │
-        ▼                                        ▼
-2.1 Gestión de vulnerabilidades      OWASP, SDLC, pentesting
-        ▼
-2.2 Pentesting
-        ▼
-2.3 OWASP Top 10
-        ▼
-2.4 Herramientas
-        ▼
-2.5 Análisis de resultados
+Metodologías, normas y estándares   (ruta técnica principal)
+    Introducción  →  Fundamentos  →  Infraestructura
+        →  Normatividad  →  Metodologías
+        →  Gestión de vulnerabilidades  →  Pentesting
+        →  OWASP Top 10  →  Herramientas  →  Resultados
+
+Comunicación (Argumentación · Comunicándonos · Escribiendo · Relacionando)
+TIC  ────────────────────────────────────────────────  en paralelo, sin orden
 ```
 
-> **Suspendido en paralelo:** los componentes de [Comunicación](/fase1/comunicacion/argumentacion/) y [TIC](/fase1/tic/) se pueden estudiar de forma separada, sin interrumpir la ruta técnica.
+> **Flexible por diseño:** los componentes de Comunicación y TIC se pueden cursar en paralelo a la ruta técnica, en el orden que prefieras.
 
-## Material de consulta
+## Material de la fase
 
-- [Guía de aprendizaje (PDF)](/downloads/CF01_228133_DU.pdf)
-- [Síntesis / mapa conceptual (PDF)](/downloads/Sintesis.pdf)
+- [Guía de aprendizaje del OVA (PDF)](/fase1/metodologias-normas-estandares/downloads/CF01_228133_DU.pdf)
+- [Síntesis / mapa conceptual (PDF)](/fase1/metodologias-normas-estandares/downloads/Sintesis.pdf)

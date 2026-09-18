@@ -1,86 +1,88 @@
 import { defineConfig } from 'vitepress'
 
-const fase1Sidebar = [
+const metodologiasSidebar = [
   {
-    text: 'Fase 1 · Análisis',
+    text: 'Metodologías, normas y estándares',
     collapsed: false,
     items: [
-      { text: 'Introducción', link: '/fase1/introduccion' },
-      { text: 'Resumen de la fase', link: '/fase1/' },
+      { text: 'Inicio de la OVA', link: '/fase1/metodologias-normas-estandares/' },
+      { text: 'Introducción', link: '/fase1/metodologias-normas-estandares/introduccion' },
+      { text: 'Fundamentos', link: '/fase1/metodologias-normas-estandares/fundamentos' },
+      { text: 'Infraestructura de aplicaciones web', link: '/fase1/metodologias-normas-estandares/infraestructura' },
+      { text: 'Normatividad y estándares', link: '/fase1/metodologias-normas-estandares/normatividad' },
+      { text: 'Metodologías', link: '/fase1/metodologias-normas-estandares/metodologias' },
+      { text: 'Gestión de vulnerabilidades', link: '/fase1/metodologias-normas-estandares/gestion-vulnerabilidades' },
+      { text: 'Pentesting', link: '/fase1/metodologias-normas-estandares/pentesting' },
+      { text: 'OWASP Top 10', link: '/fase1/metodologias-normas-estandares/owasp-top-10' },
+      { text: 'Herramientas especializadas', link: '/fase1/metodologias-normas-estandares/herramientas' },
+      { text: 'Análisis de resultados', link: '/fase1/metodologias-normas-estandares/analisis-resultados' },
     ],
   },
+]
+
+const argumentacionSidebar = [
   {
-    text: 'Tema 1 · Fundamentos de seguridad',
+    text: 'COMUNICACIÓN · ARGUMENTACIÓN',
     collapsed: false,
     items: [
-      { text: '1.1 Conceptos', link: '/fase1/tema1/01-conceptos' },
-      { text: '1.2 Infraestructura de apps web', link: '/fase1/tema1/02-infraestructura' },
-      { text: '1.3 Normatividad y estándares', link: '/fase1/tema1/03-normatividad' },
-      { text: '1.4 Metodologías', link: '/fase1/tema1/04-metodologias' },
+      { text: 'Inicio de la OVA', link: '/fase1/argumentacion/' },
+      { text: 'Introducción', link: '/fase1/argumentacion/introduccion' },
+      { text: 'Tema 1 · La argumentación', link: '/fase1/argumentacion/tema1' },
+      { text: 'Tema 2 · Pensamiento y lenguaje', link: '/fase1/argumentacion/tema2' },
+      { text: 'Tema 3 · Tipos de argumentación', link: '/fase1/argumentacion/tema3' },
+      { text: 'Síntesis', link: '/fase1/argumentacion/sintesis' },
     ],
   },
+]
+
+const comunicandonosSidebar = [
   {
-    text: 'Tema 2 · Vulnerabilidades',
+    text: 'COMUNICACIÓN · COMUNICÁNDONOS',
     collapsed: false,
     items: [
-      { text: '2.1 Gestión de vulnerabilidades', link: '/fase1/tema2/01-gestion-vulnerabilidades' },
-      { text: '2.2 Pentesting', link: '/fase1/tema2/02-pentesting' },
-      { text: '2.3 OWASP Top 10', link: '/fase1/tema2/03-owasp-top-10' },
-      { text: '2.4 Herramientas especializadas', link: '/fase1/tema2/04-herramientas' },
-      { text: '2.5 Análisis de resultados', link: '/fase1/tema2/05-analisis-resultados' },
+      { text: 'Inicio de la OVA', link: '/fase1/comunicandonos/' },
+      { text: 'Introducción', link: '/fase1/comunicandonos/introduccion' },
+      { text: 'Tema 1 · La comunicación', link: '/fase1/comunicandonos/tema1' },
+      { text: 'Tema 2 · Comunicación verbal y no verbal', link: '/fase1/comunicandonos/tema2' },
+      { text: 'Síntesis', link: '/fase1/comunicandonos/sintesis' },
     ],
   },
+]
+
+const escribiendoSidebar = [
   {
-    text: 'Comunicación oral y escrita',
-    collapsed: true,
+    text: 'COMUNICACIÓN · ESCRIBIENDO',
+    collapsed: false,
     items: [
-      {
-        text: 'Argumentación',
-        collapsed: true,
-        items: [
-          { text: 'Introducción', link: '/fase1/comunicacion/argumentacion/introduccion' },
-          { text: 'Tema 1 · La argumentación', link: '/fase1/comunicacion/argumentacion/tema1' },
-          { text: 'Tema 2 · Pensamiento y lenguaje', link: '/fase1/comunicacion/argumentacion/tema2' },
-          { text: 'Tema 3 · Tipos de argumentación', link: '/fase1/comunicacion/argumentacion/tema3' },
-          { text: 'Síntesis', link: '/fase1/comunicacion/argumentacion/sintesis' },
-        ],
-      },
-      {
-        text: 'Comunicándonos',
-        collapsed: true,
-        items: [
-          { text: 'Introducción', link: '/fase1/comunicacion/comunicandonos/introduccion' },
-          { text: 'Tema 1 · La comunicación', link: '/fase1/comunicacion/comunicandonos/tema1' },
-          { text: 'Tema 2 · Comunicación verbal y no verbal', link: '/fase1/comunicacion/comunicandonos/tema2' },
-          { text: 'Síntesis', link: '/fase1/comunicacion/comunicandonos/sintesis' },
-        ],
-      },
-      {
-        text: 'Escribiendo',
-        collapsed: true,
-        items: [
-          { text: 'Introducción', link: '/fase1/comunicacion/escribiendo/introduccion' },
-          { text: 'Tema 1 · Producción de textos', link: '/fase1/comunicacion/escribiendo/tema1' },
-          { text: 'Tema 2 · Comunicación digital', link: '/fase1/comunicacion/escribiendo/tema2' },
-          { text: 'Síntesis', link: '/fase1/comunicacion/escribiendo/sintesis' },
-        ],
-      },
-      {
-        text: 'Relacionando',
-        collapsed: true,
-        items: [
-          { text: 'Introducción', link: '/fase1/comunicacion/relacionando/introduccion' },
-          { text: 'Tema 1 · Semiótica y semiología', link: '/fase1/comunicacion/relacionando/tema1' },
-          { text: 'Tema 2 · La interpretación', link: '/fase1/comunicacion/relacionando/tema2' },
-          { text: 'Síntesis', link: '/fase1/comunicacion/relacionando/sintesis' },
-        ],
-      },
+      { text: 'Inicio de la OVA', link: '/fase1/escribiendo/' },
+      { text: 'Introducción', link: '/fase1/escribiendo/introduccion' },
+      { text: 'Tema 1 · Producción de textos', link: '/fase1/escribiendo/tema1' },
+      { text: 'Tema 2 · Comunicación digital', link: '/fase1/escribiendo/tema2' },
+      { text: 'Síntesis', link: '/fase1/escribiendo/sintesis' },
     ],
   },
+]
+
+const relacionandoSidebar = [
   {
-    text: 'Tecnologías de la Información y la Comunicación',
-    collapsed: true,
+    text: 'COMUNICACIÓN · RELACIONANDO',
+    collapsed: false,
     items: [
+      { text: 'Inicio de la OVA', link: '/fase1/relacionando/' },
+      { text: 'Introducción', link: '/fase1/relacionando/introduccion' },
+      { text: 'Tema 1 · Semiótica y semiología', link: '/fase1/relacionando/tema1' },
+      { text: 'Tema 2 · La interpretación', link: '/fase1/relacionando/tema2' },
+      { text: 'Síntesis', link: '/fase1/relacionando/sintesis' },
+    ],
+  },
+]
+
+const ticSidebar = [
+  {
+    text: 'TIC',
+    collapsed: false,
+    items: [
+      { text: 'Inicio de la OVA', link: '/fase1/tic/' },
       { text: 'Introducción', link: '/fase1/tic/introduccion' },
       { text: 'Tema 1 · Software', link: '/fase1/tic/tema1' },
       { text: 'Tema 2 · Internet', link: '/fase1/tic/tema2' },
@@ -88,6 +90,17 @@ const fase1Sidebar = [
       { text: 'Tema 4 · Evaluación', link: '/fase1/tic/tema4' },
       { text: 'Tema 5 · Mejora continua', link: '/fase1/tic/tema5' },
       { text: 'Síntesis', link: '/fase1/tic/sintesis' },
+    ],
+  },
+]
+
+const anexosSidebar = [
+  {
+    text: 'ANEXOS',
+    collapsed: false,
+    items: [
+      { text: 'Glosario', link: '/glosario' },
+      { text: 'Referencias', link: '/referencias' },
     ],
   },
 ]
@@ -120,43 +133,23 @@ export default defineConfig({
 
     nav: [
       { text: 'Inicio', link: '/' },
+      { text: 'Fase 1', link: '/fase1/' },
       {
-        text: 'Fase 1 · Análisis',
-        activeMatch: '/fase1/',
+        text: 'Metodologías',
+        activeMatch: '/fase1/metodologias-normas-estandares/',
+        link: '/fase1/metodologias-normas-estandares/',
+      },
+      {
+        text: 'Comunicación',
+        activeMatch: '/fase1/(argumentacion|comunicandonos|escribiendo|relacionando)/',
         items: [
-          { text: 'Introducción', link: '/fase1/introduccion' },
-          { text: 'Resumen de la fase', link: '/fase1/' },
-          {
-            text: 'Tema 1 · Fundamentos',
-            items: [
-              { text: '1.1 Conceptos', link: '/fase1/tema1/01-conceptos' },
-              { text: '1.2 Infraestructura', link: '/fase1/tema1/02-infraestructura' },
-              { text: '1.3 Normatividad', link: '/fase1/tema1/03-normatividad' },
-              { text: '1.4 Metodologías', link: '/fase1/tema1/04-metodologias' },
-            ],
-          },
-          {
-            text: 'Tema 2 · Vulnerabilidades',
-            items: [
-              { text: '2.1 Gestión de vulnerabilidades', link: '/fase1/tema2/01-gestion-vulnerabilidades' },
-              { text: '2.2 Pentesting', link: '/fase1/tema2/02-pentesting' },
-              { text: '2.3 OWASP Top 10', link: '/fase1/tema2/03-owasp-top-10' },
-              { text: '2.4 Herramientas', link: '/fase1/tema2/04-herramientas' },
-              { text: '2.5 Análisis de resultados', link: '/fase1/tema2/05-analisis-resultados' },
-            ],
-          },
-          {
-            text: 'Comunicación',
-            items: [
-              { text: 'Argumentación', link: '/fase1/comunicacion/argumentacion/' },
-              { text: 'Comunicándonos', link: '/fase1/comunicacion/comunicandonos/' },
-              { text: 'Escribiendo', link: '/fase1/comunicacion/escribiendo/' },
-              { text: 'Relacionando', link: '/fase1/comunicacion/relacionando/' },
-            ],
-          },
-          { text: 'TIC', link: '/fase1/tic/' },
+          { text: 'Argumentación', link: '/fase1/argumentacion/' },
+          { text: 'Comunicándonos', link: '/fase1/comunicandonos/' },
+          { text: 'Escribiendo', link: '/fase1/escribiendo/' },
+          { text: 'Relacionando', link: '/fase1/relacionando/' },
         ],
       },
+      { text: 'TIC', activeMatch: '/fase1/tic/', link: '/fase1/tic/' },
       {
         text: 'Anexos',
         items: [
@@ -167,9 +160,14 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/fase1/': fase1Sidebar,
-      '/glosario': fase1Sidebar,
-      '/referencias': fase1Sidebar,
+      '/fase1/metodologias-normas-estandares/': metodologiasSidebar,
+      '/fase1/argumentacion/': argumentacionSidebar,
+      '/fase1/comunicandonos/': comunicandonosSidebar,
+      '/fase1/escribiendo/': escribiendoSidebar,
+      '/fase1/relacionando/': relacionandoSidebar,
+      '/fase1/tic/': ticSidebar,
+      '/glosario': anexosSidebar,
+      '/referencias': anexosSidebar,
     },
 
     outline: {
