@@ -105,6 +105,65 @@ const anexosSidebar = [
   },
 ]
 
+const fundamentosSidebar = [
+  {
+    text: 'FUNDAMENTOS Y APLICACIONES DE RIESGO',
+    collapsed: false,
+    items: [
+      { text: 'Inicio de la OVA', link: '/fase2/fundamentos-riesgo/' },
+      { text: 'Introducción', link: '/fase2/fundamentos-riesgo/introduccion' },
+      { text: 'Tema 1 · Introducción a la ciberseguridad', link: '/fase2/fundamentos-riesgo/tema1' },
+      { text: 'Tema 2 · Identificación de riesgos', link: '/fase2/fundamentos-riesgo/tema2' },
+      { text: 'Tema 3 · Auditoría infraestructura tecnológica', link: '/fase2/fundamentos-riesgo/tema3' },
+      { text: 'Tema 4 · Informes y políticas SGSI', link: '/fase2/fundamentos-riesgo/tema4' },
+      { text: 'Tema 5 · Protocolos de seguridad y privacidad', link: '/fase2/fundamentos-riesgo/tema5' },
+      { text: 'Síntesis', link: '/fase2/fundamentos-riesgo/sintesis' },
+      { text: 'Actividad didáctica', link: '/fase2/fundamentos-riesgo/actividad' },
+    ],
+  },
+]
+
+const matematicasBasicoSidebar = [
+  {
+    text: 'MATEMÁTICAS · NIVEL BÁSICO',
+    collapsed: false,
+    items: [
+      { text: 'Inicio del nivel', link: '/fase2/matematicas/nivel-basico/' },
+      { text: 'Introducción', link: '/fase2/matematicas/nivel-basico/introduccion' },
+      { text: 'Tema 1 · Conjuntos numéricos', link: '/fase2/matematicas/nivel-basico/tema1' },
+      { text: 'Tema 2 · Operaciones aritméticas', link: '/fase2/matematicas/nivel-basico/tema2' },
+      { text: 'Tema 3 · Razones y proporciones', link: '/fase2/matematicas/nivel-basico/tema3' },
+    ],
+  },
+]
+
+const matematicasIntermedioSidebar = [
+  {
+    text: 'MATEMÁTICAS · NIVEL INTERMEDIO',
+    collapsed: false,
+    items: [
+      { text: 'Inicio del nivel', link: '/fase2/matematicas/nivel-intermedio/' },
+      { text: 'Tema 1 · Estadística descriptiva', link: '/fase2/matematicas/nivel-intermedio/tema1' },
+      { text: 'Tema 2 · Sistema de unidades', link: '/fase2/matematicas/nivel-intermedio/tema2' },
+    ],
+  },
+]
+
+const matematicasMedioSidebar = [
+  {
+    text: 'MATEMÁTICAS · NIVEL MEDIO',
+    collapsed: false,
+    items: [
+      { text: 'Inicio del nivel', link: '/fase2/matematicas/nivel-medio/' },
+      { text: 'Tema 1 · Área y volumen', link: '/fase2/matematicas/nivel-medio/tema1' },
+      { text: 'Tema 2 · Trigonometría', link: '/fase2/matematicas/nivel-medio/tema2' },
+      { text: 'Tema 3 · Ecuaciones', link: '/fase2/matematicas/nivel-medio/tema3' },
+      { text: 'Tema 4 · Funciones', link: '/fase2/matematicas/nivel-medio/tema4' },
+      { text: 'Tema 5 · Función lineal', link: '/fase2/matematicas/nivel-medio/tema5' },
+    ],
+  },
+]
+
 export default defineConfig({
   title: 'SAW Wiki',
   description:
@@ -150,6 +209,21 @@ export default defineConfig({
         ],
       },
       { text: 'TIC', activeMatch: '/fase1/tic/', link: '/fase1/tic/' },
+      { text: 'Fase 2', activeMatch: '/fase2/', link: '/fase2/' },
+      {
+        text: 'Fundamentos de riesgo',
+        activeMatch: '/fase2/fundamentos-riesgo/',
+        link: '/fase2/fundamentos-riesgo/',
+      },
+      {
+        text: 'Matemáticas',
+        activeMatch: '/fase2/matematicas/',
+        items: [
+          { text: 'Nivel básico', link: '/fase2/matematicas/nivel-basico/' },
+          { text: 'Nivel intermedio', link: '/fase2/matematicas/nivel-intermedio/' },
+          { text: 'Nivel medio', link: '/fase2/matematicas/nivel-medio/' },
+        ],
+      },
       {
         text: 'Anexos',
         items: [
@@ -166,6 +240,10 @@ export default defineConfig({
       '/fase1/escribiendo/': escribiendoSidebar,
       '/fase1/relacionando/': relacionandoSidebar,
       '/fase1/tic/': ticSidebar,
+      '/fase2/fundamentos-riesgo/': fundamentosSidebar,
+      '/fase2/matematicas/nivel-basico/': matematicasBasicoSidebar,
+      '/fase2/matematicas/nivel-intermedio/': matematicasIntermedioSidebar,
+      '/fase2/matematicas/nivel-medio/': matematicasMedioSidebar,
       '/glosario': anexosSidebar,
       '/referencias': anexosSidebar,
     },

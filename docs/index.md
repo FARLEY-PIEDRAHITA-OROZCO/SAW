@@ -8,13 +8,16 @@ hero:
   image:
     src: /favicon.svg
     alt: SAW Wiki
-  actions:
+actions:
     - theme: brand
       text: Comenzar
       link: /fase1/metodologias-normas-estandares/introduccion
     - theme: alt
       text: Ver la Fase 1
       link: /fase1/
+    - theme: alt
+      text: Ver la Fase 2
+      link: /fase2/
 
 features:
   - icon: "🛡️"
@@ -32,6 +35,11 @@ features:
     details: Software, internet, ofimática, evaluación y mejora continua como soporte tecnológico del proceso formativo.
     link: /fase1/tic/
     linkText: Explorar
+  - icon: "⚠️"
+    title: "Fase 2 · Planeación"
+    details: Fundamentos y aplicaciones de riesgo de seguridad orientada a aplicaciones web, más Matemáticas en tres niveles.
+    link: /fase2/
+    linkText: Explorar
   - icon: "📖"
     title: "Glosario"
     details: Términos y conceptos clave de la seguridad de aplicaciones web, siempre a mano.
@@ -42,9 +50,6 @@ features:
     details: OWASP, WSTG, ISO 27001, Guías del MinTIC y más fuentes oficiales con enlace directo.
     link: /referencias
     linkText: Consultar
-  - icon: "🔍"
-    title: "Búsqueda integrada"
-    details: Buscador local sobre todo el contenido para encontrar al instante conceptos, normas y herramientas.
 ---
 
 ## Estructura del contenido
@@ -72,8 +77,19 @@ SAW Wiki/
    └─ TIC
        ├─ Software · Internet · Ofimática
        └─ Evaluación · Mejora continua
+├─ Fase 2 · Planeación
+   ├─ Fundamentos y aplicaciones de riesgo de seguridad
+   │   ├─ Introducción
+   │   ├─ Ciberseguridad · Riesgos
+   │   ├─ Auditoría · Informes y políticas SGSI
+   │   ├─ Protocolos de seguridad y privacidad
+   │   └─ Síntesis · Actividad
+   └─ Matemáticas
+       ├─ Nivel básico
+       ├─ Nivel intermedio
+       └─ Nivel medio
 ```
 
 ::: tip ¿Cómo se integran las OVAs?
-Cada OVA es **independiente y modular**: puedes estudiarlas en paralelo, en el orden que prefieras. La ruta técnica principal es la OVA de Metodologías, normas y estándares, mientras las transversales de **Comunicación** y **TIC** se cursan en paralelo. Cuando el SENA publique la siguiente fase, se creará su carpeta `fase2/` con los mismos criterios.
+Cada OVA es **independiente y modular**: puedes estudiarlas en paralelo, en el orden que prefieras. La ruta técnica principal es la OVA de Metodologías, normas y estándares, mientras las transversales de **Comunicación** y **TIC** se cursan en paralelo. En la **Fase 2** se incorporan el OVA técnico de fundamentos y aplicaciones de riesgo y el componente transversal de **Matemáticas** en tres niveles.
 :::
