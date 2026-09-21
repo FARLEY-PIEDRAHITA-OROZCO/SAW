@@ -12,26 +12,11 @@ El componente formativo de **Matemáticas** acompaña la formación técnica apo
 
 <div class="grid-modulos">
 
-<a class="modulo-card" href="/SAW/fase2/matematicas/nivel-basico/">
-  <span class="modulo-card__icon">1️⃣</span>
-  <span class="modulo-card__titulo">Nivel básico</span>
-  <span class="modulo-card__desc">Conjuntos numéricos, operaciones aritméticas y razones y proporciones.</span>
-  <span class="modulo-card__link">Explorar →</span>
-</a>
+<ModuloCard href="/fase2/matematicas/nivel-basico/" icon="1️⃣" titulo="Nivel básico" desc="Conjuntos numéricos, operaciones aritméticas y razones y proporciones." />
 
-<a class="modulo-card" href="/SAW/fase2/matematicas/nivel-intermedio/">
-  <span class="modulo-card__icon">2️⃣</span>
-  <span class="modulo-card__titulo">Nivel intermedio</span>
-  <span class="modulo-card__desc">Estadística descriptiva y sistema de unidades.</span>
-  <span class="modulo-card__link">Explorar →</span>
-</a>
+<ModuloCard href="/fase2/matematicas/nivel-intermedio/" icon="2️⃣" titulo="Nivel intermedio" desc="Estadística descriptiva y sistema de unidades." />
 
-<a class="modulo-card" href="/SAW/fase2/matematicas/nivel-medio/">
-  <span class="modulo-card__icon">3️⃣</span>
-  <span class="modulo-card__titulo">Nivel medio</span>
-  <span class="modulo-card__desc">Área y volumen, trigonometría, ecuaciones, funciones y función lineal.</span>
-  <span class="modulo-card__link">Explorar →</span>
-</a>
+<ModuloCard href="/fase2/matematicas/nivel-medio/" icon="3️⃣" titulo="Nivel medio" desc="Área y volumen, trigonometría, ecuaciones, funciones y función lineal." />
 
 </div>
 

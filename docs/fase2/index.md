@@ -12,19 +12,9 @@ La **Fase 2 · Planeación** del programa continúa la ruta formativa incorporan
 
 <div class="grid-modulos">
 
-<a class="modulo-card" href="/SAW/fase2/fundamentos-riesgo/">
-  <span class="modulo-card__icon">🛡️</span>
-  <span class="modulo-card__titulo">Fundamentos y aplicaciones de riesgo de seguridad</span>
-  <span class="modulo-card__desc">Ciberseguridad, identificación de riesgos, auditorías, informes y protocolos de seguridad en aplicaciones web.</span>
-  <span class="modulo-card__link">Explorar →</span>
-</a>
+<ModuloCard href="/fase2/fundamentos-riesgo/" icon="🛡️" titulo="Fundamentos y aplicaciones de riesgo de seguridad" desc="Ciberseguridad, identificación de riesgos, auditorías, informes y protocolos de seguridad en aplicaciones web." />
 
-<a class="modulo-card" href="/SAW/fase2/matematicas/">
-  <span class="modulo-card__icon">📐</span>
-  <span class="modulo-card__titulo">Matemáticas</span>
-  <span class="modulo-card__desc">Conocimientos matemáticos de apoyo a la formación técnica, organizados en tres niveles: básico, intermedio y medio.</span>
-  <span class="modulo-card__link">Explorar →</span>
-</a>
+<ModuloCard href="/fase2/matematicas/" icon="📐" titulo="Matemáticas" desc="Conocimientos matemáticos de apoyo a la formación técnica, organizados en tres niveles: básico, intermedio y medio." />
 
 </div>
 
