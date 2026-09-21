@@ -12,47 +12,17 @@ La primera fase del programa se centra en el **análisis**: comprender los funda
 
 <div class="grid-modulos">
 
-<a class="modulo-card" href="/SAW/fase1/metodologias-normas-estandares/">
-  <span class="modulo-card__icon">🛡️</span>
-  <span class="modulo-card__titulo">Metodologías, normas y estándares</span>
-  <span class="modulo-card__desc">OVA principal: fundamentos, infraestructura web, normatividad (ISO), metodologías OWASP y gestión de vulnerabilidades.</span>
-  <span class="modulo-card__link">Explorar →</span>
-</a>
+<ModuloCard href="/fase1/metodologias-normas-estandares/" icon="🛡️" titulo="Metodologías, normas y estándares" desc="OVA principal: fundamentos, infraestructura web, normatividad (ISO), metodologías OWASP y gestión de vulnerabilidades." />
 
-<a class="modulo-card" href="/SAW/fase1/tic/">
-  <span class="modulo-card__icon">💻</span>
-  <span class="modulo-card__titulo">Tecnologías de la Información y la Comunicación</span>
-  <span class="modulo-card__desc">Software, internet, ofimática, evaluación y mejora continua como soporte del proceso formativo.</span>
-  <span class="modulo-card__link">Explorar →</span>
-</a>
+<ModuloCard href="/fase1/tic/" icon="💻" titulo="Tecnologías de la Información y la Comunicación" desc="Software, internet, ofimática, evaluación y mejora continua como soporte del proceso formativo." />
 
-<a class="modulo-card" href="/SAW/fase1/argumentacion/">
-  <span class="modulo-card__icon">🗣️</span>
-  <span class="modulo-card__titulo">Comunicación · Argumentación</span>
-  <span class="modulo-card__desc">La argumentación como herramienta del pensamiento: mensajes, pensamiento-lenguaje y tipos de argumentación.</span>
-  <span class="modulo-card__link">Explorar →</span>
-</a>
+<ModuloCard href="/fase1/argumentacion/" icon="🗣️" titulo="Comunicación · Argumentación" desc="La argumentación como herramienta del pensamiento: mensajes, pensamiento-lenguaje y tipos de argumentación." />
 
-<a class="modulo-card" href="/SAW/fase1/comunicandonos/">
-  <span class="modulo-card__icon">💬</span>
-  <span class="modulo-card__titulo">Comunicación · Comunicándonos</span>
-  <span class="modulo-card__desc">La comunicación efectiva: procesos, verbal y no verbal.</span>
-  <span class="modulo-card__link">Explorar →</span>
-</a>
+<ModuloCard href="/fase1/comunicandonos/" icon="💬" titulo="Comunicación · Comunicándonos" desc="La comunicación efectiva: procesos, verbal y no verbal." />
 
-<a class="modulo-card" href="/SAW/fase1/escribiendo/">
-  <span class="modulo-card__icon">✍️</span>
-  <span class="modulo-card__titulo">Comunicación · Escribiendo</span>
-  <span class="modulo-card__desc">Producción de textos y comunicación digital: tipos de texto y su aplicación.</span>
-  <span class="modulo-card__link">Explorar →</span>
-</a>
+<ModuloCard href="/fase1/escribiendo/" icon="✍️" titulo="Comunicación · Escribiendo" desc="Producción de textos y comunicación digital: tipos de texto y su aplicación." />
 
-<a class="modulo-card" href="/SAW/fase1/relacionando/">
-  <span class="modulo-card__icon">🔗</span>
-  <span class="modulo-card__titulo">Comunicación · Relacionando</span>
-  <span class="modulo-card__desc">El arte del relacionamiento en el proceso lectoescritor: semiótica, conectores e interpretación.</span>
-  <span class="modulo-card__link">Explorar →</span>
-</a>
+<ModuloCard href="/fase1/relacionando/" icon="🔗" titulo="Comunicación · Relacionando" desc="El arte del relacionamiento en el proceso lectoescritor: semiótica, conectores e interpretación." />
 
 </div>
 
