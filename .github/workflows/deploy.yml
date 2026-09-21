@@ -38,6 +38,15 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Check internal links (fails deploy on broken hrefs)
+        shell: bash
+        run: python scripts/checklinks.py --dist docs/.vitepress/dist --base /SAW/
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
