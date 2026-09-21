@@ -5,4 +5,5 @@ docs/.vitepress/dist/
 *.local
 .DS_Store
 Fase 1 Análisis/
-Fase 2 Planeación/
+Fase 2 Planeación/__pycache__/
+*.pyc
