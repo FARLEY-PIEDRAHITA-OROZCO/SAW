@@ -1,4 +1,4 @@
----
+﻿---
 title: "Matemáticas · Nivel básico"
 description: "Nivel básico de matemáticas: conjuntos numéricos, operaciones aritméticas y razones y proporciones."
 tags: [fase2, matematicas, nivel-basico]
@@ -12,28 +12,28 @@ Este nivel presenta los fundamentos numéricos necesarios para abordar los conte
 
 <div class="grid-modulos">
 
-<a class="modulo-card" href="/fase2/matematicas/nivel-basico/introduccion">
+<a class="modulo-card" href="/SAW/fase2/matematicas/nivel-basico/introduccion">
   <span class="modulo-card__icon">🎬</span>
   <span class="modulo-card__titulo">Introducción</span>
   <span class="modulo-card__desc">Video introductorio y la motivación detrás del surgimiento de los números.</span>
   <span class="modulo-card__link">Ver contenido →</span>
 </a>
 
-<a class="modulo-card" href="/fase2/matematicas/nivel-basico/tema1">
+<a class="modulo-card" href="/SAW/fase2/matematicas/nivel-basico/tema1">
   <span class="modulo-card__icon">🔢</span>
   <span class="modulo-card__titulo">Tema 1 · Conjuntos numéricos</span>
   <span class="modulo-card__desc">Naturales, enteros, racionales, irracionales, reales y complejos.</span>
   <span class="modulo-card__link">Ver contenido →</span>
 </a>
 
-<a class="modulo-card" href="/fase2/matematicas/nivel-basico/tema2">
+<a class="modulo-card" href="/SAW/fase2/matematicas/nivel-basico/tema2">
   <span class="modulo-card__icon">➕</span>
   <span class="modulo-card__titulo">Tema 2 · Operaciones aritméticas</span>
   <span class="modulo-card__desc">Suma, resta, multiplicación, división, jerarquía de operaciones, potencias y raíces.</span>
   <span class="modulo-card__link">Ver contenido →</span>
 </a>
 
-<a class="modulo-card" href="/fase2/matematicas/nivel-basico/tema3">
+<a class="modulo-card" href="/SAW/fase2/matematicas/nivel-basico/tema3">
   <span class="modulo-card__icon">⚖️</span>
   <span class="modulo-card__titulo">Tema 3 · Razones y proporciones</span>
   <span class="modulo-card__desc">Proporcionalidad, porcentajes y regla de tres simple directa e inversa.</span>

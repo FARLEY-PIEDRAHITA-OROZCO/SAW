@@ -1,4 +1,4 @@
----
+﻿---
 title: "Matemáticas · Nivel intermedio"
 description: "Nivel intermedio de matemáticas: estadística descriptiva y sistema de unidades."
 tags: [fase2, matematicas, nivel-intermedio]
@@ -12,14 +12,14 @@ Este nivel aborda el manejo y la interpretación de datos a través de la **esta
 
 <div class="grid-modulos">
 
-<a class="modulo-card" href="/fase2/matematicas/nivel-intermedio/tema1">
+<a class="modulo-card" href="/SAW/fase2/matematicas/nivel-intermedio/tema1">
   <span class="modulo-card__icon">📊</span>
   <span class="modulo-card__titulo">Tema 1 · Estadística descriptiva</span>
   <span class="modulo-card__desc">Conceptos estadísticos, tablas de frecuencia, gráficos y medidas de tendencia central.</span>
   <span class="modulo-card__link">Ver contenido →</span>
 </a>
 
-<a class="modulo-card" href="/fase2/matematicas/nivel-intermedio/tema2">
+<a class="modulo-card" href="/SAW/fase2/matematicas/nivel-intermedio/tema2">
   <span class="modulo-card__icon">📏</span>
   <span class="modulo-card__titulo">Tema 2 · Sistema de unidades</span>
   <span class="modulo-card__desc">Sistema internacional de unidades y sistema inglés: medición de propiedades físicas.</span>

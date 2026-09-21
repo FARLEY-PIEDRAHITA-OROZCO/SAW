@@ -1,4 +1,4 @@
----
+﻿---
 title: "Fase 1 · Análisis"
 description: "Resumen de la Fase 1 - Análisis del técnico en Seguridad de Aplicaciones Web"
 tags: [fase1, analisis]
@@ -12,42 +12,42 @@ La primera fase del programa se centra en el **análisis**: comprender los funda
 
 <div class="grid-modulos">
 
-<a class="modulo-card" href="/fase1/metodologias-normas-estandares/">
+<a class="modulo-card" href="/SAW/fase1/metodologias-normas-estandares/">
   <span class="modulo-card__icon">🛡️</span>
   <span class="modulo-card__titulo">Metodologías, normas y estándares</span>
   <span class="modulo-card__desc">OVA principal: fundamentos, infraestructura web, normatividad (ISO), metodologías OWASP y gestión de vulnerabilidades.</span>
   <span class="modulo-card__link">Explorar →</span>
 </a>
 
-<a class="modulo-card" href="/fase1/tic/">
+<a class="modulo-card" href="/SAW/fase1/tic/">
   <span class="modulo-card__icon">💻</span>
   <span class="modulo-card__titulo">Tecnologías de la Información y la Comunicación</span>
   <span class="modulo-card__desc">Software, internet, ofimática, evaluación y mejora continua como soporte del proceso formativo.</span>
   <span class="modulo-card__link">Explorar →</span>
 </a>
 
-<a class="modulo-card" href="/fase1/argumentacion/">
+<a class="modulo-card" href="/SAW/fase1/argumentacion/">
   <span class="modulo-card__icon">🗣️</span>
   <span class="modulo-card__titulo">Comunicación · Argumentación</span>
   <span class="modulo-card__desc">La argumentación como herramienta del pensamiento: mensajes, pensamiento-lenguaje y tipos de argumentación.</span>
   <span class="modulo-card__link">Explorar →</span>
 </a>
 
-<a class="modulo-card" href="/fase1/comunicandonos/">
+<a class="modulo-card" href="/SAW/fase1/comunicandonos/">
   <span class="modulo-card__icon">💬</span>
   <span class="modulo-card__titulo">Comunicación · Comunicándonos</span>
   <span class="modulo-card__desc">La comunicación efectiva: procesos, verbal y no verbal.</span>
   <span class="modulo-card__link">Explorar →</span>
 </a>
 
-<a class="modulo-card" href="/fase1/escribiendo/">
+<a class="modulo-card" href="/SAW/fase1/escribiendo/">
   <span class="modulo-card__icon">✍️</span>
   <span class="modulo-card__titulo">Comunicación · Escribiendo</span>
   <span class="modulo-card__desc">Producción de textos y comunicación digital: tipos de texto y su aplicación.</span>
   <span class="modulo-card__link">Explorar →</span>
 </a>
 
-<a class="modulo-card" href="/fase1/relacionando/">
+<a class="modulo-card" href="/SAW/fase1/relacionando/">
   <span class="modulo-card__icon">🔗</span>
   <span class="modulo-card__titulo">Comunicación · Relacionando</span>
   <span class="modulo-card__desc">El arte del relacionamiento en el proceso lectoescritor: semiótica, conectores e interpretación.</span>
